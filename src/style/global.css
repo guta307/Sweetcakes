@@ -163,10 +163,10 @@
         --primary:"#ED0590"
         --primary-darker:"#CF037E"
         --primary-lighter:"#FF43B4"
-
+        --primary-outline:"#E1098B"
         --secondary:"#4209E1"
         --secondary-darker:"#3101B8"
-        --secondary-lighter:"#1E1E1E"
+        --secondary-lighter:"#6B36FF"
 
          /*Text & Background*/
 
@@ -215,5 +215,8 @@
         --medium-yellow:"#F4DD64"
         --semilight-yellow:"#F7E795"
         --light-yellow:"#F8EDB5"
+
+        
     }
+    
 }
