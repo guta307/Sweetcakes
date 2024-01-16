@@ -1,0 +1,75 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/blocks";
+
+<Meta title="Atoms/Colors" />
+
+# Colors
+
+## Brand Colors
+
+Brand or main product colors for the entire design system
+
+<ColorPalette>
+  <ColorItem
+    title="Brand colors - Primary"
+    colors={{
+      Primary: "#ED0590",
+      Darker: "#CF037E",
+      Lighter: "#FF43B4",
+    }}
+  />
+  
+  <ColorItem
+    title="Brand colors - Secondary"
+    colors={{
+      Primary: "#4209E1",
+      Darker: "#3101B8",
+      Lighter: "#6B36FF",
+    }}
+  />
+
+{" "}
+
+## System Colors
+
+Color collections for the entire product ecosystem.
+
+#### Text & Background / Grays
+
+<ColorItem
+  title="Dark grays"
+  colors={["#2A2A2A", "#4F4E4E", "#7E7B7B", "#A4A1A1", "#D1CDCD"]}
+/>
+
+<ColorItem
+  title="Light grays"
+  colors={["#DAD6D6", "#E1DDDD", "#ECEAEA", "#F3F2F2", "#FCFBFB"]}
+/>
+
+#### Text & Background / Black & White
+
+<ColorItem title="Black" colors={["#0F0F0F"]} />
+
+<ColorItem title="White" colors={["#FFFFFF"]} />
+
+### Status & Custom colors
+
+<ColorItem
+  title="Red"
+  colors={["#ED053D", "#EF2254", "#F2597E", "#F6A0B5", "#F9CAD5"]}
+/>
+
+<ColorItem
+  title="Green"
+  colors={["#01AB4F", "#20B564", "#51C586", "#98DCB7", "#CAECDA"]}
+/>
+
+<ColorItem
+  title="Blue"
+  colors={["#178CBE", "#3A9DC7", "#7ABCD9", "#A9D3E5", "#D6E9F1"]}
+/>
+
+<ColorItem
+  title="Yellow"
+  colors={["#F0CC0D","#F2D438","#F4DD64","#F7E795","#F8EDB5"]}
+/>
+</ColorPalette>
