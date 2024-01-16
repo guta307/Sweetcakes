@@ -147,8 +147,73 @@
 }
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@layer base{
+    :root{
+
+        /*Colors*/
+
+
+        /*Brand Color*/
+        --primary:"#ED0590"
+        --primary-darker:"#CF037E"
+        --primary-lighter:"#FF43B4"
+
+        --secondary:"#4209E1"
+        --secondary-darker:"#3101B8"
+        --secondary-lighter:"#1E1E1E"
+
+         /*Text & Background*/
+
+         /*Dark grays*/
+
+         --dark-gray-primary:"#2A2A2A"
+         --dark-gray-secondary:"#4F4E4E"
+         --dark-gray-tertiary:"#7E7B7B"
+         --dark-gray-quartenary:"#A4A1A1"
+         --dark-gray-quintenary:"#D1CDCD"
+
+        /*Light grays*/
+
+        --light-gray-primary:"#DAD6D6"
+        --light-gray-secondary:"#E1DDDD"
+        --light-gray-tertionary:"#ECEAEA"
+        --light-gray-quartenary:"#F3F2F2"
+        --light-gray-quintenary:"#FCFBFB"
+
+        /*Custom colors*/
+        
+        /*Red*/
+        --dark-red:"#ED053D"
+        --semidark-red:"#EF2254"
+        --medium-red:"#F2597E"
+        --semilight-red:"#F6A0B5"
+        --light-red:"#F9CAD5"
+        
+        /*Green*/
+        --dark-green:"#01AB4F"
+        --semidark-green:"#20B564"
+        --medium-red:"#51C586"
+        --semilight-green:"#98DCB7"
+        --light-green:"#CAECDA"
+
+        /*Blue*/
+        --dark-blue:"#178CBE"
+        --semidark-blue:"#3A9DC7"
+        --medium-blue:"#7ABCD9"
+        --semilight-blue:"#A9D3E5"
+        --light-blue:"#D6E9F1"
+
+        /*Yellow*/
+        --dark-yellow:"#F0CC0D"
+        --semidark-yellow:"#F2D438"
+        --medium-yellow:"#F4DD64"
+        --semilight-yellow:"#F7E795"
+        --light-yellow:"#F8EDB5"
+    }
 }
