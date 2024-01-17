@@ -212,5 +212,34 @@
     --medium-yellow: 244, 221, 100;
     --semilight-yellow: 247, 231, 149;
     --light-yellow: 248, 237, 181;
+
+    /* Screens */
+    --screen-mobile: 390px;
+    --screen-desktop: 1440px;
+
+    /* Widths for Desktop Boxes */
+    --width-desktop-2col: 625px; /* Desktop box (2 columns) */
+    --width-desktop-3col: 429px; /* Desktop box (3 columns) */
+    --width-desktop-4col: 318px; /* Desktop box (4 columns) */
+    --width-desktop-6col: 207px; /* Desktop box (6 columns) */
+    --width-desktop-column: 95px; /* Desktop column */
+    --width-mobile-column: 77px; /* Mobile column */
+
+    /* Heights for Desktop Boxes */
+    --height-desktop-2col: 235px; /* Desktop box (2 columns) */
+    --height-desktop-3col: 155px; /* Desktop box (3 columns) */
+    --height-desktop-4col: 115px; /* Desktop box (4 columns) */
+    --height-desktop-6col: 75px; /* Desktop box (6 columns) */
+
+    /* Padding & Margin */
+    --spacing-xxs: 4px; /* Extra extra small */
+    --spacing-xs: 8px; /* Extra small */
+    --spacing-sm: 16px; /* Small */
+    --spacing-md: 24px; /* Medium */
+    --spacing-lg: 32px; /* Large */
+    --spacing-xl: 40px; /* Extra large */
+    --spacing-2xl: 48px; /* 2x extra large */
+    --spacing-3xl: 54px; /* 3x extra large */
+    --spacing-4xl: 60px; /* 4x extra large */
   }
 }
