@@ -10,6 +10,9 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      mulish: "Poppins, sans-serif",
+    },
     fontSize: {
       xs: "12px",
       sm: "14px",
@@ -18,6 +21,11 @@ module.exports = {
       xl: "32px",
       title1: "40px",
       title2: "60px",
+    },
+
+    screens: {
+      mobile: "var(--screen-mobile)",
+      desktop: "var(--screen-desktop)",
     },
     extend: {
       textColor: {
@@ -121,6 +129,48 @@ module.exports = {
         Alert: {
           dark: toRgba("--dark-yellow") /*240, 204, 13*/,
         },
+      },
+
+      // Widths
+      width: {
+        "desktop-2col": "625px", // Desktop box (2 columns)
+        "desktop-3col": "429px", // Desktop box (3 columns)
+        "desktop-4col": "318px", // Desktop box (4 columns)
+        "desktop-6col": "207px", // Desktop box (6 columns)
+        "desktop-column": "95px", // Desktop column
+        "mobile-column": "77px", // Mobile column
+      },
+
+      // Heights
+      height: {
+        "desktop-2col": "235px", // Desktop box (2 columns)
+        "desktop-3col": "155px", // Desktop box (3 columns)
+        "desktop-4col": "115px", // Desktop box (4 columns)
+        "desktop-6col": "75px", // Desktop box (6 columns)
+      },
+
+      // Padding & Margin
+      padding: {
+        xxs: "4px", // Extra extra small
+        xs: "8px", // Extra small
+        sm: "16px", // Small
+        md: "24px", // Medium
+        lg: "32px", // Large
+        xl: "40px", // Extra large
+        "2xl": "48px", // 2x extra large
+        "3xl": "54px", // 3x extra large
+        "4xl": "60px", // 4x extra large
+      },
+      margin: {
+        xxs: "4px", // Extra extra small
+        xs: "8px", // Extra small
+        sm: "16px", // Small
+        md: "24px", // Medium
+        lg: "32px", // Large
+        xl: "40px", // Extra large
+        "2xl": "48px", // 2x extra large
+        "3xl": "54px", // 3x extra large
+        "4xl": "60px", // 4x extra large
       },
     },
   },
