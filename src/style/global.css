@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Thin.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-ThinItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-ExtraLight.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-ExtraLightItalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Light.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-LightItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -52,7 +52,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Regular.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Italic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -68,7 +68,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Medium.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -76,7 +76,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-MediumItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -84,7 +84,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-SemiBold.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -92,7 +92,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -100,7 +100,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Bold.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -108,7 +108,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-BoldItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -116,7 +116,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -124,7 +124,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -132,7 +132,7 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Black.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -140,83 +140,77 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-BlackItalic.ttf") format("truetype");
+  src: url("../fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@layer base{
-    :root{
+@layer base {
+  :root {
+    /*Colors*/
 
-        /*Colors*/
+    /*Brand Color*/
+    --primary: 237, 5, 144;
+    --primary-darker: 207, 3, 126;
+    --primary-lighter: 255, 67, 180;
+    --primary-outline: 225, 9, 139;
 
+    --secondary: 66, 9, 225;
+    --secondary-darker: 49, 1, 184;
+    --secondary-lighter: 107, 54, 255;
 
-        /*Brand Color*/
-        --primary:"#ED0590"
-        --primary-darker:"#CF037E"
-        --primary-lighter:"#FF43B4"
-        --primary-outline:"#E1098B"
-        --secondary:"#4209E1"
-        --secondary-darker:"#3101B8"
-        --secondary-lighter:"#6B36FF"
+    /*Text & Background*/
 
-         /*Text & Background*/
+    /*Dark grays*/
+    --dark-gray-primary: 42, 42, 42;
+    --dark-gray-secondary: 79, 78, 78;
+    --dark-gray-tertiary: 126, 123, 123;
+    --dark-gray-quartenary: 164, 161, 161;
+    --dark-gray-quintenary: 209, 205, 205;
 
-         /*Dark grays*/
+    /*Light grays*/
+    --light-gray-primary: 218, 214, 214;
+    --light-gray-secondary: 225, 221, 221;
+    --light-gray-tertionary: 236, 234, 234;
+    --light-gray-quartenary: 243, 242, 242;
+    --light-gray-quintenary: 252, 251, 251;
 
-         --dark-gray-primary:"#2A2A2A"
-         --dark-gray-secondary:"#4F4E4E"
-         --dark-gray-tertiary:"#7E7B7B"
-         --dark-gray-quartenary:"#A4A1A1"
-         --dark-gray-quintenary:"#D1CDCD"
+    /*Custom colors*/
 
-        /*Light grays*/
+    /*Red*/
+    --dark-red: 237, 5, 61;
+    --semidark-red: 239, 34, 84;
+    --medium-red: 242, 89, 126;
+    --semilight-red: 246, 160, 181;
+    --light-red: 249, 202, 213;
 
-        --light-gray-primary:"#DAD6D6"
-        --light-gray-secondary:"#E1DDDD"
-        --light-gray-tertionary:"#ECEAEA"
-        --light-gray-quartenary:"#F3F2F2"
-        --light-gray-quintenary:"#FCFBFB"
+    /*Green*/
+    --dark-green: 1, 171, 79;
+    --semidark-green: 32, 181, 100;
+    --medium-green: 81, 197, 134;
+    --semilight-green: 152, 220, 183;
+    --light-green: 202, 236, 218;
 
-        /*Custom colors*/
-        
-        /*Red*/
-        --dark-red:"#ED053D"
-        --semidark-red:"#EF2254"
-        --medium-red:"#F2597E"
-        --semilight-red:"#F6A0B5"
-        --light-red:"#F9CAD5"
-        
-        /*Green*/
-        --dark-green:"#01AB4F"
-        --semidark-green:"#20B564"
-        --medium-red:"#51C586"
-        --semilight-green:"#98DCB7"
-        --light-green:"#CAECDA"
+    /*Blue*/
+    --dark-blue: 23, 140, 190;
+    --semidark-blue: 58, 157, 199;
+    --medium-blue: 122, 188, 217;
+    --semilight-blue: 169, 211, 229;
+    --light-blue: 214, 233, 241;
 
-        /*Blue*/
-        --dark-blue:"#178CBE"
-        --semidark-blue:"#3A9DC7"
-        --medium-blue:"#7ABCD9"
-        --semilight-blue:"#A9D3E5"
-        --light-blue:"#D6E9F1"
-
-        /*Yellow*/
-        --dark-yellow:"#F0CC0D"
-        --semidark-yellow:"#F2D438"
-        --medium-yellow:"#F4DD64"
-        --semilight-yellow:"#F7E795"
-        --light-yellow:"#F8EDB5"
-
-        
-    }
-    
+    /*Yellow*/
+    --dark-yellow: 240, 204, 13;
+    --semidark-yellow: 242, 212, 56;
+    --medium-yellow: 244, 221, 100;
+    --semilight-yellow: 247, 231, 149;
+    --light-yellow: 248, 237, 181;
+  }
 }
