@@ -1,6 +1,9 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+function toRgba(cssVariable: any) {
+  const color = `var(${cssVariable})`;
+  return ({ opacityValue }: any) => `rgba(${color}, ${opacityValue})`;
+}
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,79 +16,81 @@ const config: Config = {
       md: "16px",
       lg: "20px",
       xl: "32px",
+      title1: "40px",
+      title2: "60px",
     },
     extend: {
       textColor: {
         gray: {
           dark: {
-            primary: "--dark-gray-primary",
-            secondary: "--dark-gray-secondary",
-            tertiary: "--dark-gray-tertiary",
-            quartenary: "--dark-gray-quartenary",
+            primary: toRgba("--dark-gray-primary") /*42, 42, 42*/,
+            secondary: toRgba("--dark-gray-secondary") /*79, 78, 78*/,
+            tertiary: toRgba("--dark-gray-tertiary") /*126, 123, 123*/,
+            quartenary: toRgba("--dark-gray-quartenary") /*164, 161, 161*/,
           },
           light: {
-            secondary: "--light-gray-secondary",
+            secondary: toRgba("--light-gray-secondary") /*225, 221, 221*/,
           },
         },
         primary: {
-          default: "--primary",
-          lighter: "--primary-lighter",
+          default: toRgba("--primary") /*237, 5, 144*/,
+          lighter: toRgba("--primary-lighter") /*255, 67, 180*/,
         },
         error: {
-          dark: "--dark-red",
+          dark: toRgba("--dark-red") /*237, 5, 61*/,
         },
-        sucess: {
-          dark: "--dark-green",
+        success: {
+          dark: toRgba("--dark-green") /*1, 171, 79*/,
         },
         information: {
-          dark: "--dark-blue",
+          dark: toRgba("--dark-blue") /*23, 140, 190*/,
         },
       },
 
       backgroundColor: {
         primary: {
-          default: "--primary",
-          darker: "--primary-darker",
-          lighter: "--primary-lighter",
+          default: toRgba("--primary") /*237, 5, 144*/,
+          darker: toRgba("--primary-darker") /*207, 3, 126*/,
+          lighter: toRgba("--primary-lighter") /*255, 67, 180*/,
         },
         secondary: {
-          default: "--secondary",
-          darker: "--secondary-darker",
-          lighter: "--secondary-lighter",
+          default: toRgba("--secondary") /*66, 9, 225*/,
+          darker: toRgba("--secondary-darker") /*49, 1, 184*/,
+          lighter: toRgba("--secondary-lighter") /*107, 54, 255*/,
         },
         error: {
-          dark: "--dark-red",
-          semidark: "--semidark-red",
-          medium: "--medium-red",
-          light: "--light-red",
+          dark: toRgba("--dark-red") /*237, 5, 61*/,
+          semidark: toRgba("--semidark-red") /*239, 34, 84*/,
+          medium: toRgba("--medium-red") /*242, 89, 126*/,
+          light: toRgba("--light-red") /*249, 202, 213*/,
         },
         sucess: {
-          dark: "--dark-green",
-          semidark: "--semidark-green",
-          medium: "--medium-green",
-          light: "--light-green",
+          dark: toRgba("--dark-green") /* */,
+          semidark: toRgba("--semidark-green") /* */,
+          medium: toRgba("--medium-green") /* */,
+          light: toRgba("--light-green") /* */,
         },
         information: {
-          dark: "--dark-blue",
-          semidark: "--semidark-blue",
-          medium: "--medium-blue",
-          light: "--light-blue",
+          dark: toRgba("--dark-blue") /*1, 171, 79*/,
+          semidark: toRgba("--semidark-blue") /*32, 181, 100*/,
+          medium: toRgba("--medium-blue") /*81, 197, 134*/,
+          light: toRgba("--light-blue") /*202, 236, 218*/,
         },
         Alert: {
-          dark: "--dark-yellow",
-          semidark: "--semidark-yellow",
-          medium: "--medium-yellow",
-          light: "--light-yellow",
+          dark: toRgba("--dark-yellow") /*240, 204, 13*/,
+          semidark: toRgba("--semidark-yellow") /*242, 212, 56*/,
+          medium: toRgba("--medium-yellow") /*244, 221, 100*/,
+          light: toRgba("--light-yellow") /*248, 237, 181*/,
         },
         gray: {
           dark: {
-            secondary: "--dark-gray-secondary",
-            quartenary: "--dark-gray-quartenary",
+            secondary: toRgba("--dark-gray-secondary") /*79, 78, 78*/,
+            quartenary: toRgba("--dark-gray-quartenary") /*164, 161, 161*/,
           },
           light: {
-            tertiary: "--light-gray-tertiary",
-            quartenary: "--light-gray-quartenary",
-            quintenary: "--dark-gray-quintenary",
+            tertiary: toRgba("--light-gray-tertiary") /*236, 234, 234*/,
+            quartenary: toRgba("--light-gray-quartenary") /*243, 242, 242*/,
+            quintenary: toRgba("--dark-gray-quintenary") /*252, 251, 251*/,
           },
         },
       },
@@ -93,32 +98,31 @@ const config: Config = {
       borderColor: {
         gray: {
           dark: {
-            tertiary: "--dark-gray-tertiary",
-            quartenary: "--dark-gray-quartenary",
+            tertiary: toRgba("--dark-gray-tertiary") /*126, 123, 123*/,
+            quartenary: toRgba("--dark-gray-quartenary") /*164, 161, 161*/,
           },
           light: {
-            tertiary: "--light-gray-tertiary",
-            quartenary: "--light-gray-quartenary",
+            tertiary: toRgba("--light-gray-tertiary") /*236, 234, 234*/,
+            quartenary: toRgba("--light-gray-quartenary") /*243, 242, 242*/,
           },
         },
         primary: {
-          outline: "--primary-outline",
+          outline: toRgba("--primary-outline") /*225, 9, 139*/,
         },
         secondary: {
-          default: "--secondary",
+          default: toRgba("--secondary") /*66, 9, 225*/,
         },
         information: {
-          dark: "--dark-blue",
+          dark: toRgba("--dark-blue") /*23, 140, 190*/,
         },
         sucess: {
-          dark: "--dark-green",
+          dark: toRgba("--dark-green") /*1, 171, 79*/,
         },
         Alert: {
-          dark: "--dark-yellow",
+          dark: toRgba("--dark-yellow") /*240, 204, 13*/,
         },
       },
     },
   },
   plugins: [],
 };
-export default config;
