@@ -1,4 +1,5 @@
 import type { Preview } from "@storybook/react";
+import "vibe-storybook-components/index.css";
 import "../src/style/global.css";
 const preview: Preview = {
   parameters: {
