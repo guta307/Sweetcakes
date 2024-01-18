@@ -1,31 +1,49 @@
-import { Meta, Controls, Primary, Canvas } from "@storybook/blocks";
-
+import { Meta, Unstyled, Controls, Primary, Canvas } from "@storybook/blocks";
+import TextBoard from "./Text/Text";
 import * as Story from "./Typography.stories";
+import { Frame } from "vibe-storybook-components";
+import { TextColors } from "../Colors/colors-text/colors-text";
 
-# Typografia
+# Typography
 
-This is a typography component
+- [Fonts](#fonts)
 
+- [Style](#style)
+
+- [Text colors](#text-colors)
+
+## Fonts
+
+Using the Poppins font throughout my application project not only enhances its aesthetic appeal but also contributes significantly to its ergonomic aspects. Poppins, with its clean and modern design, offers excellent legibility across various screen sizes and resolutions, ensuring a seamless user experience. Its balanced letterforms and generous spacing create a harmonious visual rhythm, making the content more engaging and easy to read. By prioritizing both aesthetics and ergonomics through the consistent use of Poppins, my application aims to deliver a user-friendly and visually pleasing interface, enhancing the overall quality and usability of the platform.
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet"
+/>
+```
+
+```css
+* {
+  font-family: "Poppins", sans-serif;
+}
+```
+
+## Style
+
+<Frame>
+  <Unstyled>
+    <TextBoard />
+  </Unstyled>
+</Frame>
+
+## Text colors
+
+{" "}
+
+<Unstyled>
+  <TextColors />
+</Unstyled>
 <Meta of={Story} />
-
-### Primário
-
-<Canvas of={Story.Primary} />
-
-### Titulo H1
-
-<Canvas of={Story.TextHeadingH1} layout="centered" />
-
-### Titulo H2
-
-<Canvas of={Story.TextHeadingH2} layout="centered" />
-
-### Paragraph
-
-<Canvas of={Story.TextParagraph} layout="centered" />
-
-### Documentação Interativa
-
-<Primary />
-
-<Controls />
