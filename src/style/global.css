@@ -241,5 +241,14 @@
     --spacing-2xl: 48px; /* 2x extra large */
     --spacing-3xl: 54px; /* 3x extra large */
     --spacing-4xl: 60px; /* 4x extra large */
+
+    /* Font Sizes */
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 20px;
+    --font-size-xl: 32px;
+    --font-size-title1: 40px;
+    --font-size-title2: 60px;
   }
 }
