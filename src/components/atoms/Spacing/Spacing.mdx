@@ -1,0 +1,51 @@
+import { Frame } from "vibe-storybook-components";
+import { Meta, Controls, Primary, Canvas } from "@storybook/blocks";
+import { SpacingSizes } from "./Spacing-sizes/spacing-sizes";
+import * as Story from "./Spacing.stories";
+
+import TwoColumnsGrid from "./Grid/two-columns/two-columns";
+import ThreeColumnsGrid from "./Grid/three-columns/three-columns";
+import FourColumnsGrid from "./Grid/four-columns/four-columns";
+import SixColumnsGrid from "./Grid/six-columns/six-columns";
+import MobileGrid from "./Grid/mobile-grid/mobile-grid";
+
+# Spacing
+
+This is a Spacing component
+
+<Meta of={Story} />
+
+- [Spacing sizes](#spacing-sizes)
+
+- [Grid](#grid)
+
+## Spacing sizes
+
+Using the right sizes will create consistency and hierarchy in user interface.
+
+<SpacingSizes />
+
+# Grid
+
+## Desktop
+
+<Frame className="flex flex-col gap-5 overflow-scroll">
+  ### (1440px)
+
+  <TwoColumnsGrid />
+  <ThreeColumnsGrid />
+  <FourColumnsGrid />
+  <SixColumnsGrid />
+</Frame>
+
+## Mobile
+
+<Frame>
+  ### (390px)
+  <MobileGrid />
+</Frame>
+### Interactive documentation
+
+<Primary />
+
+<Controls />

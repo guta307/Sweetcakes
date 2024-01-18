@@ -1,0 +1,74 @@
+.spacing-xxs {
+  height: var(--spacing-xxs);
+}
+
+.spacing-xs {
+  height: var(--spacing-xs);
+}
+
+.spacing-sm {
+  height: var(--spacing-sm);
+}
+
+.spacing-md {
+  height: var(--spacing-md);
+}
+
+.spacing-lg {
+  height: var(--spacing-lg);
+}
+
+.spacing-xl {
+  height: var(--spacing-xl);
+}
+
+.spacing-2xl {
+  height: var(--spacing-2xl);
+}
+
+.spacing-3xl {
+  height: var(--spacing-3xl);
+}
+
+.spacing-4xl {
+  height: var(--spacing-4xl);
+}
+
+.spacing-component-visualizer {
+  background-color: rgb(237, 5, 144);
+  width: 75px;
+}
+
+.spacing-component {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  margin: 0 var(--spacing-medium);
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.spacing-component .spacing-title-container {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-md) var(--spacing-xs) var(--spacing-md)
+    var(--spacing-xs);
+  color: rgba(45, 45, 45, 1);
+  font-size: var(--font-size-sm);
+}
+
+.spacing-component .spacing-description {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.spacing-component .spacing-title {
+  margin-right: var(--spacing-sm);
+}
+
+.spacing-component .spacing-variable-name {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 500;
+}

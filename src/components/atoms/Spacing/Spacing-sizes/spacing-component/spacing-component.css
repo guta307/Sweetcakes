@@ -1,0 +1,67 @@
+.spacing-xs {
+  height: var(--spacing-xs);
+}
+
+.spacing-small {
+  height: var(--spacing-small);
+}
+
+.spacing-medium {
+  height: var(--spacing-medium);
+}
+
+.spacing-large {
+  height: var(--spacing-large);
+}
+
+.spacing-xl {
+  height: var(--spacing-xl);
+}
+
+.spacing-xxl {
+  height: var(--spacing-xxl);
+}
+
+.spacing-xxxl {
+  height: var(--spacing-xxxl);
+}
+
+.spacing-component-visualizer {
+  background-color: rgba(218, 214, 214, 1);
+  width: 75px;
+}
+
+.spacing-component {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  margin: 0 var(--spacing-medium);
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.spacing-component .spacing-title-container {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-md) var(--spacing-xs) var(--spacing-md)
+    var(--spacing-xs);
+  color: rgba(45, 45, 45, 1);
+  font-size: var(--font-size-sm);
+}
+
+.spacing-component .spacing-description {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.spacing-component .spacing-title {
+  margin-right: var(--spacing-sm);
+}
+
+.spacing-component .spacing-variable-name {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(45, 45, 45, 1);
+}
