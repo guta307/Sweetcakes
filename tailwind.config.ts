@@ -14,13 +14,13 @@ module.exports = {
       mulish: "Poppins, sans-serif",
     },
     fontSize: {
-      xs: "12px",
-      sm: "14px",
-      md: "16px",
-      lg: "20px",
-      xl: "32px",
-      title1: "40px",
-      title2: "60px",
+      xs: "var(--font-size-xs)" /*12px*/,
+      sm: "var(--font-size-sm)" /*14px*/,
+      md: "var(--font-size-md)" /*16px*/,
+      lg: "var(--font-size-lg)" /*20px*/,
+      xl: "var(--font-size-xl)" /*32px*/,
+      title1: "var(--font-size-title1)" /*40px*/,
+      title2: "var(--font-size-title2)" /* 60px*/,
     },
 
     screens: {
@@ -28,6 +28,33 @@ module.exports = {
       desktop: "var(--screen-desktop)",
     },
     extend: {
+      colors: {
+        gray: {
+          dark: {
+            primary: toRgba("--dark-gray-primary") /*42, 42, 42*/,
+            secondary: toRgba("--dark-gray-secondary") /*79, 78, 78*/,
+            tertiary: toRgba("--dark-gray-tertiary") /*126, 123, 123*/,
+            quartenary: toRgba("--dark-gray-quartenary") /*164, 161, 161*/,
+          },
+          light: {
+            secondary: toRgba("--light-gray-secondary") /*225, 221, 221*/,
+          },
+        },
+        primary: {
+          default: toRgba("--primary") /*237, 5, 144*/,
+          lighter: toRgba("--primary-lighter") /*255, 67, 180*/,
+        },
+        error: {
+          dark: toRgba("--dark-red") /*237, 5, 61*/,
+        },
+        success: {
+          dark: toRgba("--dark-green") /*1, 171, 79*/,
+        },
+        information: {
+          dark: toRgba("--dark-blue") /*23, 140, 190*/,
+        },
+      },
+
       textColor: {
         gray: {
           dark: {
@@ -145,7 +172,7 @@ module.exports = {
       height: {
         "desktop-2col": "235px", // Desktop box (2 columns)
         "desktop-3col": "155px", // Desktop box (3 columns)
-        "desktop-4col": "115px", // Desktop box (4 columns)
+        "desktop-4col": "125px", // Desktop box (4 columns)
         "desktop-6col": "75px", // Desktop box (6 columns)
       },
 
