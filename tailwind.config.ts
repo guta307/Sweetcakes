@@ -27,6 +27,15 @@ module.exports = {
       mobile: "var(--screen-mobile)",
       desktop: "var(--screen-desktop)",
     },
+
+    //BoxShadow
+    boxShadow: {
+      ds01: "var(--shadow-ds01)",
+      ds02: "var(--shadow-ds02)",
+      ds03: "var(--shadow-ds03)",
+      ds04: "var(--shadow-ds04)",
+      ds05: "var(--shadow-ds05)",
+    },
     extend: {
       colors: {
         gray: {
