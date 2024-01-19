@@ -250,5 +250,12 @@
     --font-size-xl: 32px;
     --font-size-title1: 40px;
     --font-size-title2: 60px;
+
+    /* Box shadow */
+    --shadow-ds01: 0px 0px 8px 0px rgba(0, 0, 0, 0.4); /* Dark Shadow/01 */
+    --shadow-ds02: 0px 2px 8px 0px rgba(0, 0, 0, 0.4); /* Dark Shadow/02 */
+    --shadow-ds03: 0px 4px 8px 0px rgba(0, 0, 0, 0.4); /* Dark Shadow/03 */
+    --shadow-ds04: 0px 6px 8px 0px rgba(0, 0, 0, 0.4); /* Dark Shadow/04 */
+    --shadow-ds05: 0px 8px 8px 0px rgba(0, 0, 0, 0.4); /* Dark Shadow/05 */
   }
 }
